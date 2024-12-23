@@ -4,58 +4,60 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Updated light theme colors */
+    --background: 230 70% 98%; /* Soft light blue */
+    --foreground: 215 28% 15%; /* Deep navy */
+    --card: 0 0% 100%; /* White */
+    --card-foreground: 215 28% 15%; /* Deep navy */
+    --popover: 0 0% 100%; /* White */
+    --popover-foreground: 215 28% 15%; /* Deep navy */
+    --primary: 207 90% 54%; /* Vibrant blue */
+    --primary-foreground: 0 0% 100%; /* White */
+    --secondary: 48 89% 67%; /* Soft yellow */
+    --secondary-foreground: 215 28% 15%; /* Deep navy */
+    --muted: 230 24% 92%; /* Light grayish-blue */
+    --muted-foreground: 215 16% 46%; /* Medium gray */
+    --accent: 334 77% 64%; /* Soft pinkish-red */
+    --accent-foreground: 0 0% 100%; /* White */
+    --destructive: 10 78% 57%; /* Vivid red */
+    --destructive-foreground: 0 0% 100%; /* White */
+    --border: 220 15% 85%; /* Light gray */
+    --input: 220 15% 85%; /* Light gray */
+    --ring: 207 90% 54%; /* Vibrant blue */
     --radius: 0.5rem;
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
+    --chart-1: 204 86% 53%; /* Cyan */
+    --chart-2: 171 62% 48%; /* Sea green */
+    --chart-3: 39 80% 55%; /* Golden yellow */
+    --chart-4: 333 67% 60%; /* Bright magenta */
+    --chart-5: 19 90% 56%; /* Coral */
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
+    /* Updated dark theme colors */
+    --background: 220 28% 12%; /* Dark navy */
+    --foreground: 0 0% 96%; /* Almost white */
+    --card: 220 28% 16%; /* Slightly lighter dark navy */
+    --card-foreground: 0 0% 96%; /* Almost white */
+    --popover: 220 28% 16%; /* Slightly lighter dark navy */
+    --popover-foreground: 0 0% 96%; /* Almost white */
+    --primary: 207 90% 54%; /* Vibrant blue */
+    --primary-foreground: 0 0% 96%; /* Almost white */
+    --secondary: 48 89% 67%; /* Soft yellow */
+    --secondary-foreground: 0 0% 96%; /* Almost white */
+    --muted: 220 20% 20%; /* Dark grayish-blue */
+    --muted-foreground: 210 15% 75%; /* Light gray */
+    --accent: 334 77% 64%; /* Soft pinkish-red */
+    --accent-foreground: 0 0% 96%; /* Almost white */
+    --destructive: 10 62% 40%; /* Darker red */
+    --destructive-foreground: 0 0% 96%; /* Almost white */
+    --border: 220 15% 25%; /* Dark gray */
+    --input: 220 15% 25%; /* Dark gray */
+    --ring: 207 90% 54%; /* Vibrant blue */
+    --chart-1: 204 86% 53%; /* Cyan */
+    --chart-2: 171 62% 48%; /* Sea green */
+    --chart-3: 39 80% 55%; /* Golden yellow */
+    --chart-4: 333 67% 60%; /* Bright magenta */
+    --chart-5: 19 90% 56%; /* Coral */
   }
 }
 
